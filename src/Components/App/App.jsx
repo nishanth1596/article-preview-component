@@ -23,7 +23,7 @@ function App() {
       <header className="sr-only">
         <h1 className="">Interior designers</h1>
       </header>
-      <section className="rounded-[10px] bg-white">
+      <main className="rounded-[10px] bg-white">
         <article className="relative max-w-[20.44rem] lg:flex lg:min-w-[45.63rem]">
           <img
             className="h-[200px] w-full rounded-l-[0.625rem] lg:h-auto lg:max-w-[17.81rem]"
@@ -89,7 +89,7 @@ function App() {
             </div>
           )}
         </article>
-      </section>
+      </main>
 
       <footer className="absolute bottom-0 left-1/2 w-full -translate-x-1/2 animate-pulse text-center text-gray-800">
         Challenge by
