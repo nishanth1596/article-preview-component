@@ -65,12 +65,12 @@ function App() {
             </div>
           </div>
 
-          {isActive && (
+           {isActive && (
             <div
               className="absolute bottom-0 left-0 right-0 -mb-5 flex h-16 items-center justify-between bg-[#48556a] px-8 py-4 lg:-right-16 lg:bottom-auto lg:left-auto lg:top-32 lg:z-10 lg:max-w-[15.5rem] lg:animate-bounce lg:rounded-[.625rem] lg:ease-out"
               style={{ animationIterationCount: 1 }}
             >
-              <div className="flex items-center gap-5">
+              <div className="relative flex items-center gap-5">
                 <p className="text-sm font-medium tracking-[5px] text-[#9daec2]">
                   Share
                 </p>
@@ -78,6 +78,7 @@ function App() {
                   <img src={fbIcon} alt="Facebook Icon" />
                   <img src={twitterIcon} alt="Twitter Icon" />
                   <img src={pinIcon} alt="Pinterest Icon" />
+                  <div className="lg:absolute lg:left-1/2 lg:top-10 lg:h-0 lg:w-0 lg:-translate-x-1/2 lg:border-l-[12px] lg:border-r-[12px] lg:border-t-[12px] lg:border-transparent lg:border-t-[#48556a]"></div>
                 </div>
               </div>
 
